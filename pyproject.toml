@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mlops-2023-adv"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav Vorobyev <vrvorobev@edu.hse.ru>"]
+readme = "README.md"
+packages = [{include = "mlops-2023-adv"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit = "^3.6.0"
+dvc = "^3.38.1"
+urllib3 = "<=2.0"
+torchvision = "^0.16.2"
+tqdm = "^4.66.1"
+torch = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
